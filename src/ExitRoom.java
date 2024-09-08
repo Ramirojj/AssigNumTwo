@@ -5,11 +5,11 @@ public class ExitRoom extends Room implements Exitable {
 
     @Override
     public String getDescription() {
-        return "Ves una puerta que lleva hacia afuera. Esta es tu oportunidad de escapar.";
+        return "You see a door that leads outside. This is your chance to escape.";
     }
 
     @Override
     public String exit(Player player) {
-        return "¡Has salido del laberinto! ¡Felicidades!";
+        return "Game Over. You have escaped the room.";
     }
 }

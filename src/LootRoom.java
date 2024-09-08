@@ -5,13 +5,13 @@ public class LootRoom extends Room implements Lootable {
 
     @Override
     public String getDescription() {
-        return "Te encuentras en una habitación llena de cofres misteriosos.";
+        return "You are in the mistery room.";
     }
 
     @Override
     public String loot(Player player) {
-        player.addToInventory("Espada de fuego");
+        player.addToInventory("Fire sword");
         player.addToScore(100);
-        return "¡Has saqueado una Espada de fuego y ganado 100 puntos!";
+        return "¡You got the sword! and 100 points!";
     }
 }

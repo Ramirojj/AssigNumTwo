@@ -5,6 +5,6 @@ public class StartRoom extends Room {
 
     @Override
     public String getDescription() {
-        return "Te encuentras en la habitación de inicio. Es simple y pequeña.";
+        return "You are at the beggining of a small room.";
     }
 }

@@ -5,7 +5,7 @@ public class ExitRoom extends Room implements Exitable {
 
     @Override
     public String getDescription() {
-        return "You see a door that leads outside. This is your chance to escape.";
+        return "You see a door that leads outside. This is the oportunity to scape.";
     }
 
     @Override
@@ -13,3 +13,4 @@ public class ExitRoom extends Room implements Exitable {
         return "Game Over. You have escaped the room.";
     }
 }
+
